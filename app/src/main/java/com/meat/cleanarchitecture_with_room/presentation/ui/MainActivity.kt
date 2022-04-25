@@ -1,7 +1,8 @@
-package com.meat.cleanarchitecture_with_room
+package com.meat.cleanarchitecture_with_room.presentation.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.meat.cleanarchitecture_with_room.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
