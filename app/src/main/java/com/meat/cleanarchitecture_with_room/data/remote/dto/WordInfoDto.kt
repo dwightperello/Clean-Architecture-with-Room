@@ -18,8 +18,8 @@ data class WordInfoDto(
         return  WordInfoEntity(
             word=word,
             phonetic=phonetic,
-            meanings=meanings.map { it.toMeaning() },
-            sourceUrls=sourceUrls
+            meanings=meanings.map { it.toMeaning() }
+
         )
     }
 }

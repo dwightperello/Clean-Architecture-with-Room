@@ -7,7 +7,7 @@ import com.meat.cleanarchitecture_with_room.data.remote.dto.PhoneticDto
 data class WordInfo(
     val word: String,
     val phonetic: String,
-    val meanings: List<Meaning>,
+    val meanings: List<Meaning>
 
 
 )

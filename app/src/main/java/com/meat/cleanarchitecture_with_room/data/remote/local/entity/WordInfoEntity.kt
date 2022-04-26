@@ -13,7 +13,7 @@ data class WordInfoEntity(
     val word: String,
     val phonetic: String,
     val meanings: List<Meaning>,
-    val sourceUrls: List<String>,
+
     @PrimaryKey val id: Int? = null
 ){
     fun toWordInfo():WordInfo{
@@ -21,6 +21,7 @@ data class WordInfoEntity(
         word=word,
         phonetic=phonetic,
         meanings=meanings,
+
 
 
         )
